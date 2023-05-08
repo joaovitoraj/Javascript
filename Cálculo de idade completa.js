@@ -5,3 +5,5 @@ var nascimento = new Date(prompt("Digite a data de nascimento (mm/dd/aaaa):"));
     alert("Por favor digite um valor válido!")
     var nascimento = new Date(prompt("Digite a data de nascimento (mm/dd/aaaa):"));
     var diferenca = parseInt((hoje.getTime() - nascimento.getTime())/(1000*3600*24*365));
+ }
+ alert(diferenca+' anos')
